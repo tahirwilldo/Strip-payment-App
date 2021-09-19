@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 pt-5 my-2 text-center">
+      <h2 class="display-4 text-center">Playing It My Way</h2>
+      <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, voluptatem!</p>
+      <form action="/payment" method="POST">
+        <script
+          src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+          data-key="publishable_key"
+          data-amount="1099"
+          data-name="Shashutech"
+          data-description="Get Your Book"
+          data-image="/img/marketplace.png"
+          data-zip-code="true"
+          data-locale="auto">
+        </script>
+      </form>
+    </div>
+    <div class="col-md-6">
+      <img src="/img/bookimg.jpeg" alt="" class="img-fluid mt-2 d-block mx-auto">
+    </div>
+  </div>
+</div>
